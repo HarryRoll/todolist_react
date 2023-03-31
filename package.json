@@ -1,7 +1,7 @@
 {
   "name": "to-do-list-project",
   "version": "0.1.0",
-  "homepage": "https://github.com/HarryRoll/React_todolist",
+  "homepage": "https://harryroll.github.io/React_todolist",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.16",

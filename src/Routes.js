@@ -14,7 +14,7 @@ export default function Routes() {
             {path : "details/:id", element : <ItemList/>}
         ]
     },
-         {path : '*', element:<Navigate to="/404" replace/>}
+         {path : '*', element:<Dasboard/>}
     ]
   )
 }
