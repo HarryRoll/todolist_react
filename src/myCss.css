@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@600&display=swap');
+
+h1, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.inputTitle{
+    background-color: #f4f4f4;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
