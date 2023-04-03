@@ -1,7 +1,7 @@
 {
+  "homepage": "https://HarryRoll.github.io/todolist_react",
   "name": "to-do-list-project",
   "version": "0.1.0",
-  "homepage": "https://harryroll.github.io/React_todolist",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.16",
@@ -17,9 +17,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

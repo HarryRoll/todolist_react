@@ -40,6 +40,9 @@ function Dasboard() {
     }
     
     useEffect( () => {
+	
+	document.title = "Dashboard";
+
         ActivityApi.getActivity().then(e => {
             setActivityData(e.data)
         })
@@ -49,7 +52,7 @@ function Dasboard() {
     <div className='flex flex-col mx-auto justify-center px-40 mt-8'>
         <div className='flex flex-row mb-16 justify-between px-4 items-center'>
             <h1 className='text-4xl font-black'>Activity</h1>
-            <button className='flex flex-row p-3 bg-blue-400 text-white rounded-3xl items-center justify-center w-44 text-xl' onClick={() => add()}>
+            <button name ="activity-add-button" className='flex flex-row p-3 bg-blue-400 text-white rounded-3xl items-center justify-center w-44 text-xl' onClick={() => add()}>
                 <PlusIcon className="h-6 w-6 text-white mr-3"/>
                 Tambah
             </button>
